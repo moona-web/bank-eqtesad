@@ -1,0 +1,1118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+}
+
+main {
+  width: 100%;
+  font-size: 20px;
+  color: gray;
+}
+main > .container {
+  width: 90%;
+  height: auto;
+  border: 2px solid rgb(253, 9, 9);
+  margin-top: 50px;
+  margin-right: 5%;
+}
+main > .container > div:nth-of-type(1) {
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(1) {
+  height: 100%;
+  width: 20%;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(1) > img {
+  padding-top: 10px;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(2) {
+  height: 100%;
+  width: 50%;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(2) > ul {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin-right: 100px;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(2) > ul > li {
+  list-style-type: none;
+  margin: 0 10px;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(2) > ul > li > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.774);
+  transition: 0.4s;
+  font-size: 20px;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(2) > ul > li > a:hover {
+  color: red;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(3) {
+  height: 100%;
+  width: 15%;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(3) > div {
+  height: 50%;
+  width: 60%;
+  margin-top: 20px;
+  margin-right: 70px;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(3) > div > i {
+  font-size: 20px;
+  color: gray;
+  padding: 0 5px;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(3) > div > i:hover {
+  color: red;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(4) {
+  height: 100%;
+  width: 15%;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(4) > div {
+  width: 70%;
+  height: 65%;
+  margin-right: 55px;
+  margin-top: 10px;
+  background-color: rgb(211, 4, 4);
+  color: white;
+  padding-top: 5px;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(4) > div > span {
+  padding-right: 10px;
+  font-size: 15px;
+}
+main > .container > div:nth-of-type(1) > div:nth-of-type(4) > div > i {
+  font-size: 15px;
+}
+main > .container > div:nth-of-type(2) {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(1) {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  animation: img1 linear infinite 25s;
+}
+@keyframes img1 {
+  0% {
+    left: 0;
+  }
+  18% {
+    left: 0;
+  }
+  22% {
+    left: 100%;
+  }
+  22.0000001% {
+    left: -100%;
+  }
+  96% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(1) > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(1) > figcaption {
+  background-color: white;
+  color: gray;
+  width: 330px;
+  height: 180px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(1) > figcaption > h3 {
+  text-indent: 20px;
+  padding-top: 25px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(1) > figcaption > h3:hover {
+  color: red;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(1) > figcaption > p {
+  font-size: 15px;
+  line-height: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
+  color: gray;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(1) > figcaption > h4 {
+  width: 60%;
+  height: 35px;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: purple;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(1) > figcaption > h4:hover {
+  background-color: red;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(2) {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  animation: img2 linear infinite 25s;
+}
+@keyframes img2 {
+  0% {
+    left: -100%;
+  }
+  18% {
+    left: -100%;
+  }
+  22% {
+    left: 0%;
+  }
+  38% {
+    left: 0%;
+  }
+  42% {
+    left: 100%;
+  }
+  42.000001% {
+    left: -100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(2) > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(2) > figcaption {
+  background-color: white;
+  width: 260px;
+  height: 210px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(2) > figcaption > h3 {
+  padding-right: 20px;
+  padding-top: 25px;
+  font-size: 16px;
+  color: gray;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(2) > figcaption > h3:hover {
+  color: red;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(2) > figcaption > p:nth-of-type(1) {
+  font-size: 17px;
+  line-height: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
+  color: red;
+  line-height: 18px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(2) > figcaption > p:nth-of-type(2),
+main > .container > div:nth-of-type(2) > figure:nth-of-type(2) > figcaption > p:nth-of-type(3) {
+  font-size: 13px;
+  line-height: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
+  color: gray;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(2) > figcaption > h4 {
+  width: 60%;
+  height: 35px;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: purple;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 17px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(2) > figcaption > h4:hover {
+  background-color: red;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(3) {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  animation: img3 linear infinite 25s;
+}
+@keyframes img3 {
+  0% {
+    left: -100%;
+  }
+  18% {
+    left: -100%;
+  }
+  22% {
+    left: -100%;
+  }
+  38% {
+    left: -100%;
+  }
+  42% {
+    left: 0%;
+  }
+  58% {
+    left: 0%;
+  }
+  62% {
+    left: 100%;
+  }
+  62.000001% {
+    left: -100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(3) > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(3) > figcaption {
+  background-color: white;
+  width: 350px;
+  height: 210px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(3) > figcaption > h3 {
+  padding-right: 20px;
+  padding-top: 25px;
+  color: gray;
+  font-size: 15px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(3) > figcaption > h3:hover {
+  color: red;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(3) > figcaption > p:nth-of-type(1) {
+  font-size: 17px;
+  line-height: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
+  color: gray;
+  line-height: 18px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(3) > figcaption > h4 {
+  width: 40%;
+  height: 35px;
+  margin-right: 20px;
+  margin-top: 25px;
+  background-color: purple;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 17px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(3) > figcaption > h4:hover {
+  background-color: red;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(4) {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  animation: img4 linear infinite 25s;
+}
+@keyframes img4 {
+  0% {
+    left: -100%;
+  }
+  18% {
+    left: -100%;
+  }
+  22% {
+    left: -100%;
+  }
+  38% {
+    left: -100%;
+  }
+  42% {
+    left: -100%;
+  }
+  58% {
+    left: -100%;
+  }
+  62% {
+    left: 0%;
+  }
+  78% {
+    left: 0%;
+  }
+  82% {
+    left: 100%;
+  }
+  82.000001% {
+    left: -100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(4) > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(4) > figcaption {
+  background-color: white;
+  width: 350px;
+  height: 210px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(4) > figcaption > h3 {
+  padding-right: 20px;
+  padding-top: 25px;
+  color: gray;
+  font-size: 17px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(4) > figcaption > h3:hover {
+  color: red;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(4) > figcaption > p {
+  font-size: 17px;
+  line-height: 15px;
+  padding-right: 20px;
+  padding-top: 20px;
+  color: gray;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(4) > figcaption > h4 {
+  width: 40%;
+  height: 35px;
+  margin-right: 20px;
+  margin-top: 40px;
+  background-color: purple;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 17px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(4) > figcaption > h4:hover {
+  background-color: red;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(5) {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  left: 0;
+  animation: img5 linear infinite 25s;
+}
+@keyframes img5 {
+  0% {
+    left: -100%;
+  }
+  78% {
+    left: -100%;
+  }
+  82% {
+    left: 0%;
+  }
+  96% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(5) > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(5) > figcaption {
+  background-color: white;
+  width: 350px;
+  height: 180px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 40px;
+  right: 60px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(5) > figcaption > h3 {
+  padding-right: 20px;
+  padding-top: 25px;
+  color: gray;
+  font-size: 17px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(5) > figcaption > h3:hover {
+  color: red;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(5) > figcaption > p {
+  font-size: 17px;
+  line-height: 22px;
+  padding-right: 20px;
+  padding-top: 10px;
+  color: gray;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(5) > figcaption > h4 {
+  border: 2px solid green;
+  width: 50%;
+  height: 35px;
+  margin-right: 20px;
+  margin-top: 30px;
+  background-color: purple;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 17px;
+}
+main > .container > div:nth-of-type(2) > figure:nth-of-type(5) > figcaption > h4:hover {
+  background-color: red;
+}
+main > .container > div:nth-of-type(3) {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(1) {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: -90%;
+  animation: para1 linear infinite 15s;
+}
+@keyframes para1 {
+  0% {
+    left: 7.5%;
+  }
+  18% {
+    left: 7.5%;
+  }
+  22% {
+    left: 100%;
+  }
+  22.0000001% {
+    left: -100%;
+  }
+  96% {
+    left: -100%;
+  }
+  100% {
+    left: 7.5%;
+  }
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(1) > div {
+  margin-right: 15px;
+  width: 22%;
+  height: 70%;
+  border-radius: 5%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(1) > div:hover {
+  border: 2px solid rgba(128, 128, 128, 0.432);
+  box-shadow: 1px 1px 1px 2px rgba(128, 128, 128, 0.596);
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(1) > div > div {
+  width: 100%;
+  height: 100%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div:nth-of-type(1) {
+  width: 100%;
+  height: 50%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div:nth-of-type(1) > i {
+  font-size: 5vw;
+  color: rgba(128, 128, 128, 0.486);
+  padding-right: 50px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div:nth-of-type(2) {
+  width: 100%;
+  height: 50%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div:nth-of-type(2) > h3 {
+  text-align: center;
+  color: purple;
+  line-height: 40px;
+  font-size: 15px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div:nth-of-type(2) > h3:hover {
+  color: red;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(1) > div > div > div:nth-of-type(2) > p {
+  text-align: center;
+  font-size: 15px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(2) {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: -90%;
+  animation: para2 linear infinite 15s;
+}
+@keyframes para2 {
+  0% {
+    left: -100%;
+  }
+  18% {
+    left: -100%;
+  }
+  22% {
+    left: 7.5%;
+  }
+  38% {
+    left: 7.5%;
+  }
+  42% {
+    left: 100%;
+  }
+  42.000001% {
+    left: -100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(2) > div {
+  margin-right: 15px;
+  width: 22%;
+  height: 70%;
+  border-radius: 5%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(2) > div:hover {
+  border: 2px solid rgba(128, 128, 128, 0.432);
+  box-shadow: 1px 1px 1px 2px rgba(128, 128, 128, 0.596);
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(2) > div > div {
+  width: 100%;
+  height: 100%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(1) {
+  width: 100%;
+  height: 50%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(1) > i {
+  font-size: 5vw;
+  color: rgba(128, 128, 128, 0.486);
+  padding-right: 50px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(2) {
+  width: 100%;
+  height: 50%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(2) > h3 {
+  text-align: center;
+  color: purple;
+  line-height: 40px;
+  font-size: 15px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(2) > h3:hover {
+  color: red;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(2) > div > div > div:nth-of-type(2) > p {
+  text-align: center;
+  font-size: 15px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(3) {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: -90%;
+  animation: para3 linear infinite 15s;
+}
+@keyframes para3 {
+  0% {
+    left: -100%;
+  }
+  18% {
+    left: -100%;
+  }
+  22% {
+    left: -100%;
+  }
+  38% {
+    left: -100%;
+  }
+  42% {
+    left: 7.5%;
+  }
+  58% {
+    left: 7.5%;
+  }
+  62% {
+    left: 100%;
+  }
+  62.000001% {
+    left: -100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(3) > div {
+  margin-right: 15px;
+  width: 22%;
+  height: 70%;
+  border-radius: 5%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(3) > div:hover {
+  border: 2px solid rgba(128, 128, 128, 0.432);
+  box-shadow: 1px 1px 1px 2px rgba(128, 128, 128, 0.596);
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(3) > div > div {
+  width: 100%;
+  height: 100%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div:nth-of-type(1) {
+  width: 100%;
+  height: 50%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div:nth-of-type(1) > i {
+  font-size: 5vw;
+  color: rgba(128, 128, 128, 0.486);
+  padding-right: 50px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div:nth-of-type(2) {
+  width: 100%;
+  height: 50%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div:nth-of-type(2) > h3 {
+  text-align: center;
+  color: purple;
+  line-height: 40px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div:nth-of-type(2) > h3:hover {
+  color: red;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(3) > div > div > div:nth-of-type(2) > p {
+  text-align: center;
+  font-size: 15px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(4) {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: -90%;
+  animation: para4 linear infinite 15s;
+}
+@keyframes para4 {
+  0% {
+    left: -100%;
+  }
+  18% {
+    left: -100%;
+  }
+  22% {
+    left: -100%;
+  }
+  38% {
+    left: -100%;
+  }
+  42% {
+    left: -100%;
+  }
+  58% {
+    left: -100%;
+  }
+  62% {
+    left: 7.5%;
+  }
+  78% {
+    left: 7.5%;
+  }
+  82% {
+    left: 100%;
+  }
+  82.000001% {
+    left: -100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(4) > div {
+  margin-right: 15px;
+  width: 22%;
+  height: 70%;
+  border-radius: 5%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(4) > div:hover {
+  border: 2px solid rgba(128, 128, 128, 0.432);
+  box-shadow: 1px 1px 1px 2px rgba(128, 128, 128, 0.596);
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(4) > div > div {
+  width: 100%;
+  height: 100%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(4) > div > div > div:nth-of-type(1) {
+  width: 100%;
+  height: 50%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(4) > div > div > div:nth-of-type(1) > i {
+  font-size: 5vw;
+  color: rgba(128, 128, 128, 0.486);
+  padding-right: 50px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(4) > div > div > div:nth-of-type(2) {
+  width: 100%;
+  height: 50%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(4) > div > div > div:nth-of-type(2) > h3 {
+  text-align: center;
+  color: purple;
+  line-height: 40px;
+  font-size: 15px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(4) > div > div > div:nth-of-type(2) > h3:hover {
+  color: red;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(4) > div > div > div:nth-of-type(2) > p {
+  text-align: center;
+  font-size: 15px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(5) {
+  width: 85%;
+  height: 90%;
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: -90%;
+  animation: para5 linear infinite 15s;
+}
+@keyframes para5 {
+  0% {
+    left: -100%;
+  }
+  78% {
+    left: -100%;
+  }
+  82% {
+    left: 7.5%;
+  }
+  96% {
+    left: 7.5%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(5) > div {
+  margin-right: 15px;
+  width: 22%;
+  height: 70%;
+  border-radius: 5%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(5) > div:hover {
+  border: 2px solid rgba(128, 128, 128, 0.432);
+  box-shadow: 1px 1px 1px 2px rgba(128, 128, 128, 0.596);
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(5) > div > div {
+  width: 100%;
+  height: 100%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(5) > div > div > div:nth-of-type(1) {
+  width: 100%;
+  height: 50%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(5) > div > div > div:nth-of-type(1) > i {
+  font-size: 5vw;
+  color: rgba(128, 128, 128, 0.486);
+  padding-right: 50px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(5) > div > div > div:nth-of-type(2) {
+  width: 100%;
+  height: 50%;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(5) > div > div > div:nth-of-type(2) > h3 {
+  text-align: center;
+  color: purple;
+  line-height: 40px;
+  font-size: 15px;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(5) > div > div > div:nth-of-type(2) > h3:hover {
+  color: red;
+}
+main > .container > div:nth-of-type(3) > div:nth-of-type(5) > div > div > div:nth-of-type(2) > p {
+  text-align: center;
+  font-size: 15px;
+}
+main > .para {
+  width: 100%;
+  height: auto;
+  background-color: rgba(128, 128, 128, 0.103);
+}
+main > .para > h4 {
+  color: red;
+  font-size: 20px;
+  padding-right: 100px;
+}
+main > .para > div:nth-of-type(1) {
+  width: 90%;
+  height: 300px;
+  margin-top: 20px;
+  margin-right: 5%;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.281);
+  border-top: 1px solid rgba(128, 128, 128, 0.281);
+}
+main > .para > div:nth-of-type(1) > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(1) {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  border-left: 1px solid rgba(128, 128, 128, 0.281);
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(1) > div:nth-of-type(1) {
+  width: 40%;
+  height: 100%;
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(1) > div:nth-of-type(1) > img {
+  padding-right: 20px;
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(1) > div:nth-of-type(2) {
+  width: 60%;
+  height: 100%;
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(1) > div:nth-of-type(2) > h2 {
+  font-size: 20px;
+  color: purple;
+  font-size: 20px;
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(1) > div:nth-of-type(2) > h2:hover {
+  color: red;
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(1) > div:nth-of-type(2) > p {
+  padding-top: 30px;
+  line-height: 30px;
+  font-size: 20px;
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(2) {
+  width: 30%;
+  height: 80%;
+  margin-right: 50px;
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(2) > ul {
+  width: 80%;
+  height: 100%;
+  margin-right: 25px;
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(2) > ul > li > a {
+  text-decoration: none;
+  line-height: 30px;
+  color: purple;
+  font-size: 15px;
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(2) > ul > li > a:hover {
+  color: red;
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(2) > div {
+  width: 40%;
+  height: 20%;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  background-color: purple;
+  margin-right: 200px;
+  margin-top: -50px;
+  padding-top: 8px;
+}
+main > .para > div:nth-of-type(1) > div > aside:nth-of-type(2) > div:hover {
+  background-color: red;
+}
+main > .para > div:nth-of-type(2) {
+  width: 90%;
+  height: 400px;
+  margin-right: 5%;
+}
+main > .para > div:nth-of-type(2) div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+main > .para > div:nth-of-type(2) div > aside {
+  width: 32%;
+  height: 100%;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+main > .para > div:nth-of-type(2) div > aside > div:nth-of-type(1) {
+  width: 100%;
+  height: 50%;
+}
+main > .para > div:nth-of-type(2) div > aside > div:nth-of-type(2) {
+  width: 100%;
+  height: 50%;
+  line-height: 40px;
+  font-size: 17px;
+}
+main > .txt {
+  width: 90%;
+  margin-right: 5%;
+  height: 300px;
+  margin-top: 50px;
+  border-top: 1px solid rgba(128, 128, 128, 0.281);
+}
+main > .txt > h2 {
+  text-align: center;
+  margin-top: -20px;
+  font-size: 30px;
+}
+main > .txt > aside {
+  width: 90%;
+  height: 100%;
+  display: flex;
+}
+main > .txt > aside > div:nth-of-type(1),
+main > .txt > aside > div:nth-of-type(2),
+main > .txt > aside > div:nth-of-type(3) {
+  width: 30%;
+  height: 100%;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+main > .txt > aside > div:nth-of-type(1) > div:nth-of-type(1),
+main > .txt > aside > div:nth-of-type(1) > div:nth-of-type(2),
+main > .txt > aside > div:nth-of-type(2) > div:nth-of-type(1),
+main > .txt > aside > div:nth-of-type(2) > div:nth-of-type(2),
+main > .txt > aside > div:nth-of-type(3) > div:nth-of-type(1),
+main > .txt > aside > div:nth-of-type(3) > div:nth-of-type(2) {
+  width: 100%;
+  height: 50%;
+  line-height: 25px;
+}
+main > .txt > aside > div:nth-of-type(1) > div:nth-of-type(1),
+main > .txt > aside > div:nth-of-type(2) > div:nth-of-type(1),
+main > .txt > aside > div:nth-of-type(3) > div:nth-of-type(1) {
+  display: flex;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.281);
+}
+main > .txt > aside > div:nth-of-type(1) > div:nth-of-type(1) > aside:nth-of-type(1),
+main > .txt > aside > div:nth-of-type(2) > div:nth-of-type(1) > aside:nth-of-type(1),
+main > .txt > aside > div:nth-of-type(3) > div:nth-of-type(1) > aside:nth-of-type(1) {
+  border-left: 1px solid rgba(128, 128, 128, 0.281);
+}
+main > .txt > aside > div:nth-of-type(1) > div:nth-of-type(1) > aside:nth-of-type(1),
+main > .txt > aside > div:nth-of-type(1) > div:nth-of-type(1) > aside:nth-of-type(2),
+main > .txt > aside > div:nth-of-type(2) > div:nth-of-type(1) > aside:nth-of-type(1),
+main > .txt > aside > div:nth-of-type(2) > div:nth-of-type(1) > aside:nth-of-type(2),
+main > .txt > aside > div:nth-of-type(3) > div:nth-of-type(1) > aside:nth-of-type(1),
+main > .txt > aside > div:nth-of-type(3) > div:nth-of-type(1) > aside:nth-of-type(2) {
+  width: 50%;
+  height: 100%;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+main i {
+  font-size: 50px;
+}
+main > article {
+  width: 20%;
+  height: 50px;
+  font-size: 20px;
+  margin-right: 500px;
+  color: white;
+  background-color: purple;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+main > article:hover {
+  background-color: red;
+}
+main > .finish {
+  width: 100%;
+  height: 250px;
+  background-color: rgba(128, 128, 128, 0.219);
+  display: flex;
+}
+main > .finish > div:nth-of-type(1) {
+  width: 30%;
+  height: 100%;
+  padding-top: 50px;
+  padding-right: 100px;
+}
+main > .finish > div:nth-of-type(1) > aside {
+  width: 100%;
+  height: 100%;
+  padding-right: 10px;
+}
+main > .finish > div:nth-of-type(1) > aside > i {
+  font-size: 18px;
+}
+main > .finish > div:nth-of-type(1) > aside > i:hover {
+  color: red;
+}
+main > .finish > div:nth-of-type(2) {
+  width: 30%;
+  height: 100%;
+  padding-top: 40px;
+  padding-right: 70px;
+  line-height: 45px;
+}
+main > .finish > div:nth-of-type(2) > i {
+  font-size: 20px;
+}
+main > .finish > div:nth-of-type(2) > i:hover {
+  color: red;
+}
+main > .finish > div:nth-of-type(3) {
+  width: 30%;
+  height: 100%;
+  font-size: 17px;
+  padding-right: 100px;
+  padding-top: 50px;
+}
+main > .finish > div:nth-of-type(3) > ul > li:hover {
+  color: red;
+}/*# sourceMappingURL=master.css.map */
